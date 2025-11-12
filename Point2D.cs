@@ -116,5 +116,24 @@ Console.WriteLine(setir);
 //Task11---------------------------------------------------------
 //Task12---------------------------------------------------------
 
+internal class Point2D
+{
+    private int v1;
+    private int v2;
 
+    public Point2D(int v1, int v2)
+    {
+        this.v1 = v1;
+        this.v2 = v2;
+    }
 
+    internal object Move(int v)
+    {
+        throw new NotImplementedException();
+    }
+
+    internal object Move(int v1, int v2)
+    {
+        throw new NotImplementedException();
+    }
+}
